@@ -1,0 +1,3 @@
+Synchronization: The synchronized keyword ensures mutual exclusion, meaning only one thread can execute a synchronized method on the same object instance at any time.
+Thread Safety: By synchronizing the incvalue and decValue methods, you ensure that the internal state of the Count2 object remains consistent even when accessed by multiple threads.
+Method References: The code uses method references (c1::incvalue and c1::decValue) for creating the threads, which is a concise way to pass the methods to the Runnable interface.
